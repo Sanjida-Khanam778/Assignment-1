@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+/* shared styles */
+p{
+    opacity: 0.7;
+}
+
 /* navigation styles */
 
 nav{
@@ -34,6 +39,11 @@ nav button{
     opacity: 0.8;
     margin-right: 166px;
     cursor: pointer;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
 }
 
 /* hero section styles */
@@ -69,6 +79,7 @@ nav button{
 
 .hero-section-content p{
     color: rgb(13, 19, 33);
+    opacity: 0.7;
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
@@ -87,4 +98,136 @@ nav button{
     background: rgb(13, 19, 33);
     margin: 32px auto 44px auto;
     padding: 21px;
+    cursor: pointer;
+}
+
+/* learning section styles */
+
+.learning-section-container{
+    margin: 74px auto 88px auto;
+    width: 1140px;
+    height: 1395px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+
+.learning-section-content{
+    width: 946px;
+    height: 1235px;
+}
+
+.top-section{
+    width: 852px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 48px;
+}
+
+.top-section h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+}
+
+.top-section p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 26px;
+}
+
+.outer-div{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.reason{
+    width: 946px;
+    height: 336px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+
+.reason-content{
+    width: 850px;
+    height: 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#img-1{
+    margin-top: 3.77px;
+    margin-right: 13.66px;
+    margin-bottom: 19.22px;
+}
+
+#img-2{
+    margin-bottom: 20.65px;
+    margin-right: 48.8px;
+}
+
+#img-3{
+    margin-right: 16.8px;
+}
+
+.reason-text{
+    width: 477px;
+    height: 219px;
+}
+
+.reason-text h2{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-top: 10.5px;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.reason-text p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0;
+    margin-bottom: 32px;
+}
+
+.reason-text button{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.7);
+    opacity: 0.7;
+    background-color: white;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px; 
+    margin: 0;
+    width: 171px;
+    height: 47px; 
+}
+
+#middle-content{
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 }

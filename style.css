@@ -287,6 +287,51 @@ nav button{
     border-radius: 16px;
 }
 
+/* current target section styles */
+
+.current-target-section{
+    margin-top: 151px;
+    margin-bottom: 111px;
+}
+
+#target-section-text{
+    margin-bottom: 48px;
+}
+
+.language-section{
+    width: 1140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+.language-section-content{
+    width: 364px;
+}
+
+.language-section-content h2{
+ margin-top: 24px;
+ margin-bottom: 8px;
+}
+
+.language-section-content p{
+    margin-bottom: 24px;
+}
+
+.language-section-content a{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
 /* footer section styles */
 
 .footer{

@@ -17,8 +17,9 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 35px;
-    padding-bottom: 35px;
+    /* padding-top: 35px; */
+    /* padding-bottom: 35px; */
+    height: 131px;
 }
 
 nav h2{
@@ -55,9 +56,7 @@ nav button{
 
 .hero-section-content{
     width: 998px;
-    height: 582px;
     margin: 0 auto;
-    margin-top: 26px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -65,6 +64,7 @@ nav button{
 
 .hero-section-content img{
     margin: 0;
+    margin-top: 26px;
 }
 
 .hero-section-content h1{
@@ -455,7 +455,6 @@ nav button{
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 8px;
     background: rgb(255, 255, 255);
-    color: rgba(13, 19, 33, 0.4);
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
@@ -474,6 +473,7 @@ nav button{
     font-weight: 600;
     line-height: 23px;
     border: none;
+    cursor: pointer;
 }
 
 /* footer section styles */

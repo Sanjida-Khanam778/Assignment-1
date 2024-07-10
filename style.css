@@ -304,12 +304,13 @@ nav button{
     justify-content: center;
     align-items: center;
     gap: 24px;
-    padding: 40px;
     margin: 0 auto;
 }
 
 .language-section-content{
     width: 364px;
+    padding: 40px;
+
 }
 
 .language-section-content h2{
@@ -330,6 +331,93 @@ nav button{
     letter-spacing: 0%;
     text-align: left;
     text-decoration-line: underline;
+}
+
+#html-section{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+#css-section{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+#js-section{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
+/* support section styles */
+
+.support{
+    background-image: url('assets/handshake.jpg');
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    padding: 64px 48px;
+    width: 1140px;
+    height: 313px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.support h1{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;    
+}
+
+.support p{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    height: 52px;
+    margin-top: 16px;
+    margin-bottom: 24px;    
+}
+
+.support-msg{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin: 0 auto;
+}
+
+.support-msg input[type='text']{
+    width: 548px;
+    height: 57px;
+    padding: 19px 20px 19px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.support-msg input[type='submit']{
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    width: 120px;
+    height: 57px;
+    padding: 17px 20px 17px 20px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    border: none;
 }
 
 /* footer section styles */
